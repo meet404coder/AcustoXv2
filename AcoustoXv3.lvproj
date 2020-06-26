@@ -510,6 +510,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="CalibrateStage.vi" Type="VI" URL="../Stage/New/CalibrateStage.vi"/>
 			<Item Name="CloseDevices.vi" Type="VI" URL="../Stage/New/CloseDevices.vi"/>
 			<Item Name="SetSyncSettings.vi" Type="VI" URL="../Stage/New/SetSyncSettings.vi"/>
+			<Item Name="PositionControl.vi" Type="VI" URL="../Stage/New/PositionControl.vi"/>
+			<Item Name="PosCtrlOptions.ctl" Type="VI" URL="../Stage/New/PosCtrlOptions.ctl"/>
+			<Item Name="SetMoveSettings.vi" Type="VI" URL="../Stage/New/SetMoveSettings.vi"/>
+			<Item Name="SettingCtrlOptions.ctl" Type="VI" URL="../Stage/New/SettingCtrlOptions.ctl"/>
 		</Item>
 		<Item Name="NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi"/>
 		<Item Name="NI 5433 (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5433 (Host)_Independent.vi"/>
