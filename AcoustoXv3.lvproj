@@ -496,7 +496,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			</Item>
 			<Item Name="Sync_outFlags.ctl" Type="VI" URL="../Stage/Sync_outFlags.ctl"/>
 			<Item Name="Sync_inFlags.ctl" Type="VI" URL="../Stage/Sync_inFlags.ctl"/>
-			<Item Name="StageOptions.ctl" Type="VI" URL="../Stage/StageOptions.ctl"/>
 		</Item>
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Configuration Complete.vi" Type="VI" URL="../Digi/SubVIs/Configuration Complete.vi"/>
