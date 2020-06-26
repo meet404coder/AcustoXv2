@@ -504,11 +504,17 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Scale Acquired Data.vi" Type="VI" URL="../Digi/SubVIs/Scale Acquired Data.vi"/>
 			<Item Name="Volts to Codes.vi" Type="VI" URL="../Digi/SubVIs/Volts to Codes.vi"/>
 		</Item>
+		<Item Name="StageVi" Type="Folder">
+			<Item Name="Find Controllers.vi" Type="VI" URL="../Stage/New/Find Controllers.vi"/>
+			<Item Name="OpenDevices.vi" Type="VI" URL="../Stage/New/OpenDevices.vi"/>
+			<Item Name="CalibrateStage.vi" Type="VI" URL="../Stage/New/CalibrateStage.vi"/>
+			<Item Name="CloseDevices.vi" Type="VI" URL="../Stage/New/CloseDevices.vi"/>
+			<Item Name="SetSyncSettings.vi" Type="VI" URL="../Stage/New/SetSyncSettings.vi"/>
+		</Item>
 		<Item Name="NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi"/>
 		<Item Name="NI 5433 (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5433 (Host)_Independent.vi"/>
 		<Item Name="Stage_Independent.vi" Type="VI" URL="../Stage_Independent.vi"/>
-		<Item Name="Find Controllers.vi" Type="VI" URL="../Stage/New/Find Controllers.vi"/>
-		<Item Name="OpenDevices.vi" Type="VI" URL="../Stage/New/OpenDevices.vi"/>
+		<Item Name="StageTest.vi" Type="VI" URL="../Stage/New/StageTest.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_5772___01__AC;</Property>
@@ -4519,7 +4525,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
-		<Item Name="StageTest.vi" Type="VI" URL="../Stage/New/StageTest.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
