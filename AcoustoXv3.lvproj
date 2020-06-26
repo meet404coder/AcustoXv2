@@ -4529,6 +4529,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
+		<Item Name="StageOptions.ctl" Type="VI" URL="../Stage/New/StageOptions.ctl"/>
+		<Item Name="PositionControlRelative.vi" Type="VI" URL="../Stage/New/PositionControlRelative.vi"/>
+		<Item Name="StageTest2.vi" Type="VI" URL="../Stage/New/StageTest2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
