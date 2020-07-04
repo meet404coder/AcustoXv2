@@ -513,11 +513,13 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="PosCtrlOptions.ctl" Type="VI" URL="../Stage/New/PosCtrlOptions.ctl"/>
 			<Item Name="SetMoveSettings.vi" Type="VI" URL="../Stage/New/SetMoveSettings.vi"/>
 			<Item Name="SettingCtrlOptions.ctl" Type="VI" URL="../Stage/New/SettingCtrlOptions.ctl"/>
+			<Item Name="StageOptions.ctl" Type="VI" URL="../Stage/New/StageOptions.ctl"/>
+			<Item Name="PositionControlRelative.vi" Type="VI" URL="../Stage/New/PositionControlRelative.vi"/>
+			<Item Name="GenerateScanEndPts.vi" Type="VI" URL="../Stage/New/GenerateScanEndPts.vi"/>
 		</Item>
 		<Item Name="NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi"/>
 		<Item Name="NI 5433 (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5433 (Host)_Independent.vi"/>
-		<Item Name="Stage_Independent.vi" Type="VI" URL="../Stage_Independent.vi"/>
-		<Item Name="StageTest.vi" Type="VI" URL="../Stage/New/StageTest.vi"/>
+		<Item Name="StageTest2.vi" Type="VI" URL="../Stage/New/StageTest2.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_5772___01__AC;</Property>
@@ -4525,16 +4527,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
-				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../Digi/Controls/AI Trigger Type.ctl"/>
-				<Item Name="Aquire State.ctl" Type="VI" URL="../Digi/Controls/Aquire State.ctl"/>
-				<Item Name="DigitizerState.ctl" Type="VI" URL="../Digi/Controls/DigitizerState.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
-		<Item Name="StageOptions.ctl" Type="VI" URL="../Stage/New/StageOptions.ctl"/>
-		<Item Name="PositionControlRelative.vi" Type="VI" URL="../Stage/New/PositionControlRelative.vi"/>
-		<Item Name="StageTest2.vi" Type="VI" URL="../Stage/New/StageTest2.vi"/>
-		<Item Name="GenerateScanEndPts.vi" Type="VI" URL="../Stage/New/GenerateScanEndPts.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -4626,9 +4621,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="niFgen_32.dll" Type="Document" URL="niFgen_32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="XImc Example 1 CS.ctl" Type="VI" URL="../Stage/subvi/XImc Example 1 CS.ctl"/>
 			<Item Name="libximc.lvlib" Type="Library" URL="../Stage/libximc.lvlib"/>
-			<Item Name="Find Controllers 2.vi" Type="VI" URL="../Stage/subvi/Find Controllers 2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
