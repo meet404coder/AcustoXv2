@@ -497,7 +497,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Sync_outFlags.ctl" Type="VI" URL="../Stage/Sync_outFlags.ctl"/>
 			<Item Name="Sync_inFlags.ctl" Type="VI" URL="../Stage/Sync_inFlags.ctl"/>
 		</Item>
-		<Item Name="SubVIs" Type="Folder">
+		<Item Name="DigiSubVIs" Type="Folder">
 			<Item Name="Configuration Complete.vi" Type="VI" URL="../Digi/SubVIs/Configuration Complete.vi"/>
 			<Item Name="Configure TIS Mode.vi" Type="VI" URL="../Digi/SubVIs/Configure TIS Mode.vi"/>
 			<Item Name="Scale Acquired Data.vi" Type="VI" URL="../Digi/SubVIs/Scale Acquired Data.vi"/>
@@ -517,10 +517,17 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="PositionControlRelative.vi" Type="VI" URL="../Stage/New/PositionControlRelative.vi"/>
 			<Item Name="GenerateScanEndPts.vi" Type="VI" URL="../Stage/New/GenerateScanEndPts.vi"/>
 		</Item>
+		<Item Name="GenSubVIs" Type="Folder">
+			<Item Name="InitGen.vi" Type="VI" URL="../Gen/InitGen.vi"/>
+			<Item Name="EnableOutput.vi" Type="VI" URL="../Gen/EnableOutput.vi"/>
+			<Item Name="CloseGen.vi" Type="VI" URL="../Gen/CloseGen.vi"/>
+			<Item Name="DisableOutput.vi" Type="VI" URL="../Gen/DisableOutput.vi"/>
+			<Item Name="ConfigureTrigSource.vi" Type="VI" URL="../Gen/ConfigureTrigSource.vi"/>
+		</Item>
+		<Item Name="GenTest1.vi" Type="VI" URL="../Gen/GenTest1.vi"/>
 		<Item Name="H5FileStoreTest.vi" Type="VI" URL="../FileStore/H5FileStoreTest.vi"/>
 		<Item Name="NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5772 (AC) - TIS Mode Enabled (Host)_Independent.vi"/>
 		<Item Name="NI 5433 (Host)_Independent.vi" Type="VI" URL="../Digi/NI 5433 (Host)_Independent.vi"/>
-		<Item Name="GenTest1.vi" Type="VI" URL="../Gen/GenTest1.vi"/>
 		<Item Name="StageTest2.vi" Type="VI" URL="../Stage/New/StageTest2.vi"/>
 		<Item Name="CombinedAll.vi" Type="VI" URL="../CombinedAll.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
@@ -5027,6 +5034,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
+				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../Digi/Controls/AI Trigger Type.ctl"/>
+				<Item Name="Aquire State.ctl" Type="VI" URL="../Digi/Controls/Aquire State.ctl"/>
+				<Item Name="DigitizerState.ctl" Type="VI" URL="../Digi/Controls/DigitizerState.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
@@ -5269,6 +5279,22 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="OpenCreateReplace Dataset by Element Type.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/OpenCreateReplace Dataset by Element Type.vi"/>
 				<Item Name="hdf5.dll" Type="Document" URL="/&lt;vilib&gt;/UPVI/lvhdf5/hdf5.dll"/>
 				<Item Name="h5helper.dll" Type="Document" URL="/&lt;vilib&gt;/UPVI/lvhdf5/h5helper.dll"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Lines From File (with error IO).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File (with error IO).vi"/>
+				<Item Name="Read Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Read Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (string).vi"/>
+				<Item Name="Read Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
@@ -5317,16 +5343,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="niFgen Configure Trigger (poly).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Trigger (poly).vi"/>
 				<Item Name="niFgen Trigger Mode.ctl" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Trigger Mode.ctl"/>
 				<Item Name="niFgen Configure Trigger Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Configure Trigger Mode.vi"/>
-				<Item Name="niFgen Is Done.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Is Done.vi"/>
-				<Item Name="niFgen Write Script.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Script.vi"/>
-				<Item Name="niFgen Util Create Bin16 Waveform Data.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Util Create Bin16 Waveform Data.vi"/>
-				<Item Name="niFgen Write Named Waveform (I16).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform (I16).vi"/>
-				<Item Name="niFgen Write Named Waveform (Complex DBL).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform (Complex DBL).vi"/>
-				<Item Name="niFgen Write Named Waveform (Complex WDT).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform (Complex WDT).vi"/>
-				<Item Name="niFgen Write Named Waveform Direct DMA (I16).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform Direct DMA (I16).vi"/>
-				<Item Name="niFgen Write Named Waveform (WDT).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform (WDT).vi"/>
-				<Item Name="niFgen Write Named Waveform (DBL).vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform (DBL).vi"/>
-				<Item Name="niFgen Write Named Waveform.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Write Named Waveform.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Type Descriptor Enumeration__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Type Descriptor Enumeration__ogtk.ctl"/>
@@ -5392,6 +5408,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="lvimptsl.dll" Type="Document" URL="lvimptsl.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="GeneratePixelWave.vi" Type="VI" URL="../WaveformSynth/GeneratePixelWave.vi"/>
+			<Item Name="WaveFormsAvailable.ctl" Type="VI" URL="../WaveformSynth/WaveFormsAvailable.ctl"/>
+			<Item Name="WaveSynthV2.vi" Type="VI" URL="../WaveformSynth/WaveSynthV2.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

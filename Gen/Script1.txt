@@ -1,9 +1,0 @@
-
-script myScript1
-		Repeat forever 
-			Clear scriptTrigger0 
-			Wait until scriptTrigger0 
-			Generate RickerWave     
-			Generate wfmDCV0     
-		end repeat 
-end script
