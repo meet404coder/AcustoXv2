@@ -523,6 +523,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="CloseGen.vi" Type="VI" URL="../Gen/CloseGen.vi"/>
 			<Item Name="DisableOutput.vi" Type="VI" URL="../Gen/DisableOutput.vi"/>
 			<Item Name="ConfigureTrigSource.vi" Type="VI" URL="../Gen/ConfigureTrigSource.vi"/>
+			<Item Name="SendTrig.vi" Type="VI" URL="../Gen/SendTrig.vi"/>
 		</Item>
 		<Item Name="GenTest1.vi" Type="VI" URL="../Gen/GenTest1.vi"/>
 		<Item Name="H5FileStoreTest.vi" Type="VI" URL="../FileStore/H5FileStoreTest.vi"/>
@@ -5034,9 +5035,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
-				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../Digi/Controls/AI Trigger Type.ctl"/>
-				<Item Name="Aquire State.ctl" Type="VI" URL="../Digi/Controls/Aquire State.ctl"/>
-				<Item Name="DigitizerState.ctl" Type="VI" URL="../Digi/Controls/DigitizerState.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build"/>
 		</Item>
