@@ -3600,7 +3600,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Property Name="NI.LV.FPGA.CompileConfigString" Type="Str">PXIe-7962R/RioClk40/falsefalseFLEXRIO_IO_MODELNI_5772___01__ACFPGA_EXECUTION_MODEFPGA_TARGETFPGA_TARGET_CLASSPXIE_7962RFPGA_TARGET_FAMILYVIRTEX5TARGET_TYPEFPGA</Property>
 			<Property Name="NI.LV.FPGA.DramBanksReservedForMemories" Type="Str">DramBank0;DramBank1</Property>
 			<Property Name="NI.LV.FPGA.Version" Type="Int">6</Property>
-			<Property Name="niFpga_TopLevelVIID" Type="Path">/E/Norway Project/All Hardware/New Microscope/LabVIEW/Digi/NI 5772 (AC) - Digitizer_vDirectDataSend (FPGA) Averaging (Working).vi</Property>
+			<Property Name="niFpga_TopLevelVIID" Type="Path">/E/Norway Project/All Hardware/New Microscope/LabVIEW/Digi/NI 5772 (AC) - Digitizer_(FPGA)Averaging (Working).vi</Property>
 			<Property Name="Resource Name" Type="Str">PXI1Slot2</Property>
 			<Property Name="SWEmulationSubMode" Type="UInt">0</Property>
 			<Property Name="SWEmulationVIPath" Type="Path"></Property>
