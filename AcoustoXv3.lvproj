@@ -9096,13 +9096,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 					<Item Name="FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/FourInputGlitchFreeMuxBasicElements_B15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 					<Item Name="xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll" Type="Document" URL="/&lt;instrlib&gt;/_niInstr/Basic Elements/v1/FPGA/Private/GlitchlessMux_4InputSimFiles/xsim.dir/FourInputGlitchFreeMuxBasicElements/xsimkB15BA4892E5F4023A51AA2E61B6FD011.dll"/>
 				</Item>
-				<Item Name="AI Trigger Type.ctl" Type="VI" URL="../Digi/Controls/AI Trigger Type.ctl"/>
-				<Item Name="Aquire State.ctl" Type="VI" URL="../Digi/Controls/Aquire State.ctl"/>
-				<Item Name="DigitizerState.ctl" Type="VI" URL="../Digi/Controls/DigitizerState.ctl"/>
-				<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
-					<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-				</Item>
-				<Item Name="DigiFPGARef.ctl" Type="VI" URL="../Digi/SubVIs/DigiFPGARef.ctl"/>
 			</Item>
 			<Item Name="Build Specifications" Type="Build">
 				<Item Name="NI 5772 (AC) - Digitizer_vDirectDataSend (FPGA) Averaging Try1" Type="{F4C5E96F-7410-48A5-BB87-3559BC9B167F}">
@@ -9145,6 +9138,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
+		<Item Name="Test.ctl" Type="VI" URL="../Digi/Test.ctl"/>
+		<Item Name="GenStates_main.ctl" Type="VI" URL="../Gen/GenStates_main.ctl"/>
+		<Item Name="DigitizerStates.ctl" Type="VI" URL="../Digi/DigitizerStates.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -9519,6 +9515,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="WaveSynthV2.vi" Type="VI" URL="../WaveformSynth/WaveSynthV2.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Read Stream.vi" Type="VI" URL="../Digi/Read Stream.vi"/>
+			<Item Name="acoustoxv3_5772_FIFO_Avg (Working) V2.lvbitx" Type="Document" URL="../FPGA Bitfiles/acoustoxv3_5772_FIFO_Avg (Working) V2.lvbitx"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
