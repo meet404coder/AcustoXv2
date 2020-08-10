@@ -1517,11 +1517,13 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="PixelImageState.ctl" Type="VI" URL="../MainPannel/PixelImageState.ctl"/>
 			<Item Name="DisplayImagePlot.vi" Type="VI" URL="../MainPannel/DisplayImagePlot.vi"/>
 			<Item Name="WaveClusterPacket.ctl" Type="VI" URL="../MainPannel/WaveClusterPacket.ctl"/>
+			<Item Name="ImageIndexMap.vi" Type="VI" URL="../MainPannel/ImageIndexMap.vi"/>
 		</Item>
 		<Item Name="Mainpannel" Type="Folder">
 			<Item Name="SwitchTillOn.vi" Type="VI" URL="../SwitchTillOn.vi"/>
+			<Item Name="MainPannel.vi" Type="VI" URL="../MainPannel/MainPannel.vi"/>
+			<Item Name="DigiMachineStates.ctl" Type="VI" URL="../Digi/Controls/DigiMachineStates.ctl"/>
 		</Item>
-		<Item Name="MainPannel.vi" Type="VI" URL="../MainPannel/MainPannel.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_5772___01__AC;</Property>
@@ -13177,7 +13179,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			</Item>
 		</Item>
 		<Item Name="MainPannelFastEnabled.vi" Type="VI" URL="../MainPannel/MainPannelFastEnabled.vi"/>
-		<Item Name="DigiMachineStates.ctl" Type="VI" URL="../Digi/Controls/DigiMachineStates.ctl"/>
 		<Item Name="DataView.vi" Type="VI" URL="../H5ViewerSAM/DataView.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -13661,6 +13662,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Stream-a[.](i16).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](i16).lvlib"/>
 			<Item Name="DigitizerFPGACode(Fully_Functional)_v3.lvbitx" Type="Document" URL="../FPGA Bitfiles/DigitizerFPGACode(Fully_Functional)_v3.lvbitx"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
+			<Item Name="IntensityColorTables.vi" Type="VI" URL="../MainPannel/IntensityColorTables.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
