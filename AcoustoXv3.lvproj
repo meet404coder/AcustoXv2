@@ -1498,6 +1498,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="ReadDataQueue.vi" Type="VI" URL="../Digi/ReadDataQueue.vi"/>
 			<Item Name="NewCombined.vi" Type="VI" URL="../NewCombined.vi"/>
 			<Item Name="NI 5772 (AC) - TIS Mode Enabled (Host).vi" Type="VI" URL="../NI 5772 (AC) - TIS Mode Enabled (Host).vi"/>
+			<Item Name="AllNewCombined.vi" Type="VI" URL="../AllNewCombined.vi"/>
 		</Item>
 		<Item Name="Individual Components" Type="Folder">
 			<Item Name="NewIndependentStage.vi" Type="VI" URL="../Stage/New/NewIndependentStage.vi"/>
@@ -1509,11 +1510,18 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="H5_WriteAttr.vi" Type="VI" URL="../FileStore/H5_WriteAttr.vi"/>
 			<Item Name="AppendWaveToFile.vi" Type="VI" URL="../FileStore/AppendWaveToFile.vi"/>
 			<Item Name="H5_CloseFile.vi" Type="VI" URL="../FileStore/H5_CloseFile.vi"/>
+			<Item Name="Data Save State.ctl" Type="VI" URL="../FileStore/Data Save State.ctl"/>
 		</Item>
-		<Item Name="AllNewCombined.vi" Type="VI" URL="../AllNewCombined.vi"/>
-		<Item Name="Data Save State.ctl" Type="VI" URL="../FileStore/Data Save State.ctl"/>
-		<Item Name="SwitchTillOn.vi" Type="VI" URL="../SwitchTillOn.vi"/>
-		<Item Name="ShowMinMaxOn Graoh.vi" Type="VI" URL="../MainPannel/ShowMinMaxOn Graoh.vi"/>
+		<Item Name="Prostprocess" Type="Folder">
+			<Item Name="ShowMinMaxOn Graoh.vi" Type="VI" URL="../MainPannel/ShowMinMaxOn Graoh.vi"/>
+			<Item Name="PixelImageState.ctl" Type="VI" URL="../MainPannel/PixelImageState.ctl"/>
+			<Item Name="DisplayImagePlot.vi" Type="VI" URL="../MainPannel/DisplayImagePlot.vi"/>
+			<Item Name="WaveClusterPacket.ctl" Type="VI" URL="../MainPannel/WaveClusterPacket.ctl"/>
+		</Item>
+		<Item Name="Mainpannel" Type="Folder">
+			<Item Name="SwitchTillOn.vi" Type="VI" URL="../SwitchTillOn.vi"/>
+		</Item>
+		<Item Name="MainPannel.vi" Type="VI" URL="../MainPannel/MainPannel.vi"/>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
 			<Property Name="CCSymbols" Type="Str">FLEXRIO_IO_MODEL,NI_5772___01__AC;</Property>
@@ -12220,8 +12228,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="PixelImageState.ctl" Type="VI" URL="../MainPannel/PixelImageState.ctl"/>
-		<Item Name="DisplayImagePlot.vi" Type="VI" URL="../MainPannel/DisplayImagePlot.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -12557,6 +12563,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
 				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="Share Stop Signal.vi" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Share Stop Signal.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
@@ -12701,6 +12709,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Stream-a[.](u16).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](u16).lvlib"/>
 			<Item Name="Stream-a[.](i16).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](i16).lvlib"/>
 			<Item Name="DigitizerFPGACode(Fully_Functional)_v3.lvbitx" Type="Document" URL="../FPGA Bitfiles/DigitizerFPGACode(Fully_Functional)_v3.lvbitx"/>
+			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
