@@ -13184,6 +13184,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		<Item Name="DataView.vi" Type="VI" URL="../H5ViewerSAM/DataView.vi"/>
 		<Item Name="Colormap3DPlot.vi" Type="VI" URL="../MainPannel/Colormap3DPlot.vi"/>
 		<Item Name="CreateXnYVector.vi" Type="VI" URL="../MainPannel/CreateXnYVector.vi"/>
+		<Item Name="H5_ReadAttr.vi" Type="VI" URL="../FileStore/H5_ReadAttr.vi"/>
+		<Item Name="ImageCluster.ctl" Type="VI" URL="../MainPannel/ImageCluster.ctl"/>
+		<Item Name="FindProgress.vi" Type="VI" URL="../MainPannel/FindProgress.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -13527,6 +13530,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="Simple H5Aread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/Simple H5Aread (Variant).vi"/>
+				<Item Name="LVH5AreadWDTAttrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/private/LVH5AreadWDTAttrs.vi"/>
+				<Item Name="H5Dread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread (Variant).vi"/>
+				<Item Name="Simple H5Dread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/Simple H5Dread (Variant).vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
@@ -13673,6 +13680,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="DigitizerFPGACode(Fully_Functional)_v3.lvbitx" Type="Document" URL="../FPGA Bitfiles/DigitizerFPGACode(Fully_Functional)_v3.lvbitx"/>
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="IntensityColorTables.vi" Type="VI" URL="../MainPannel/IntensityColorTables.vi"/>
+			<Item Name="Tag-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](dbl).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
