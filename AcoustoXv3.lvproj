@@ -1523,6 +1523,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="SwitchTillOn.vi" Type="VI" URL="../SwitchTillOn.vi"/>
 			<Item Name="MainPannel.vi" Type="VI" URL="../MainPannel/MainPannel.vi"/>
 			<Item Name="DigiMachineStates.ctl" Type="VI" URL="../Digi/Controls/DigiMachineStates.ctl"/>
+			<Item Name="LongShotStates.ctl" Type="VI" URL="../MainPannel/LongShotStates.ctl"/>
+			<Item Name="LongShotView.vi" Type="VI" URL="../MainPannel/LongShotView.vi"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -13180,6 +13182,8 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		</Item>
 		<Item Name="MainPannelFastEnabled.vi" Type="VI" URL="../MainPannel/MainPannelFastEnabled.vi"/>
 		<Item Name="DataView.vi" Type="VI" URL="../H5ViewerSAM/DataView.vi"/>
+		<Item Name="Colormap3DPlot.vi" Type="VI" URL="../MainPannel/Colormap3DPlot.vi"/>
+		<Item Name="CreateXnYVector.vi" Type="VI" URL="../MainPannel/CreateXnYVector.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -13517,6 +13521,12 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="Share Stop Signal.vi" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Share Stop Signal.vi"/>
+				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
+				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
+				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
+				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
+				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
