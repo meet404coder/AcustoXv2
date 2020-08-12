@@ -1518,6 +1518,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="DisplayImagePlot.vi" Type="VI" URL="../MainPannel/DisplayImagePlot.vi"/>
 			<Item Name="WaveClusterPacket.ctl" Type="VI" URL="../MainPannel/WaveClusterPacket.ctl"/>
 			<Item Name="ImageIndexMap.vi" Type="VI" URL="../MainPannel/ImageIndexMap.vi"/>
+			<Item Name="Colormap3DPlot.vi" Type="VI" URL="../MainPannel/Colormap3DPlot.vi"/>
+			<Item Name="CreateXnYVector.vi" Type="VI" URL="../MainPannel/CreateXnYVector.vi"/>
+			<Item Name="FindProgress.vi" Type="VI" URL="../MainPannel/FindProgress.vi"/>
 		</Item>
 		<Item Name="Mainpannel" Type="Folder">
 			<Item Name="SwitchTillOn.vi" Type="VI" URL="../SwitchTillOn.vi"/>
@@ -1525,6 +1528,25 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="DigiMachineStates.ctl" Type="VI" URL="../Digi/Controls/DigiMachineStates.ctl"/>
 			<Item Name="LongShotStates.ctl" Type="VI" URL="../MainPannel/LongShotStates.ctl"/>
 			<Item Name="LongShotView.vi" Type="VI" URL="../MainPannel/LongShotView.vi"/>
+		</Item>
+		<Item Name="FileStoreLoad" Type="Folder">
+			<Item Name="H5_ReadAttr.vi" Type="VI" URL="../FileStore/H5_ReadAttr.vi"/>
+			<Item Name="ImageCluster.ctl" Type="VI" URL="../MainPannel/ImageCluster.ctl"/>
+			<Item Name="StoreAllCtrlsConfig.vi" Type="VI" URL="../FileStore/StoreAllCtrlsConfig.vi"/>
+			<Item Name="File - Load Controls from INI.vi" Type="VI" URL="../FileStore/File - Load Controls from INI.vi"/>
+			<Item Name="File - Save Controls to INI.vi" Type="VI" URL="../FileStore/File - Save Controls to INI.vi"/>
+			<Item Name="LoadAllCtrlsConfig.vi" Type="VI" URL="../FileStore/LoadAllCtrlsConfig.vi"/>
+		</Item>
+		<Item Name="ThorLabs" Type="Folder">
+			<Item Name="Thor_OpenDevice.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_OpenDevice.vi"/>
+			<Item Name="Thor_MoveAbs.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_MoveAbs.vi"/>
+			<Item Name="Thor_CloseDevice.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_CloseDevice.vi"/>
+			<Item Name="Thor_MoveRelative.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_MoveRelative.vi"/>
+			<Item Name="Thor_Home.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_Home.vi"/>
+			<Item Name="Thor_GetSEtVelParam.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_GetSEtVelParam.vi"/>
+			<Item Name="Thor_GetPosition.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_GetPosition.vi"/>
+			<Item Name="Thor_DeviceRef.ctl" Type="VI" URL="../ThorLabs/SubViForControl/Thor_DeviceRef.ctl"/>
+			<Item Name="Thor_KCubeServoDCRef.ctl" Type="VI" URL="../ThorLabs/SubViForControl/Thor_KCubeServoDCRef.ctl"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
@@ -13182,11 +13204,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		</Item>
 		<Item Name="MainPannelFastEnabled.vi" Type="VI" URL="../MainPannel/MainPannelFastEnabled.vi"/>
 		<Item Name="DataView.vi" Type="VI" URL="../H5ViewerSAM/DataView.vi"/>
-		<Item Name="Colormap3DPlot.vi" Type="VI" URL="../MainPannel/Colormap3DPlot.vi"/>
-		<Item Name="CreateXnYVector.vi" Type="VI" URL="../MainPannel/CreateXnYVector.vi"/>
-		<Item Name="H5_ReadAttr.vi" Type="VI" URL="../FileStore/H5_ReadAttr.vi"/>
-		<Item Name="ImageCluster.ctl" Type="VI" URL="../MainPannel/ImageCluster.ctl"/>
-		<Item Name="FindProgress.vi" Type="VI" URL="../MainPannel/FindProgress.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -13534,6 +13551,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="LVH5AreadWDTAttrs.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/attribute.llb/private/LVH5AreadWDTAttrs.vi"/>
 				<Item Name="H5Dread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/H5Dread (Variant).vi"/>
 				<Item Name="Simple H5Dread (Variant).vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataset.llb/Simple H5Dread (Variant).vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
@@ -13681,6 +13702,10 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Tag-bool.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-bool.lvlib"/>
 			<Item Name="IntensityColorTables.vi" Type="VI" URL="../MainPannel/IntensityColorTables.vi"/>
 			<Item Name="Tag-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Tag-a[.](dbl).lvlib"/>
+			<Item Name="General - String to Boolean.vi" Type="VI" URL="../FileStore/General - String to Boolean.vi"/>
+			<Item Name="File - Valid Key Name.vi" Type="VI" URL="../FileStore/File - Valid Key Name.vi"/>
+			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../ThorLabs/Thorlabs.MotionControl.Controls.dll"/>
+			<Item Name="ThorLabs.MotionControl.KCube.DCServoCLI.dll" Type="Document" URL="../ThorLabs/ThorLabs.MotionControl.KCube.DCServoCLI.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
