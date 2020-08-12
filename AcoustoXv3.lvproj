@@ -13204,7 +13204,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 		</Item>
 		<Item Name="MainPannelFastEnabled.vi" Type="VI" URL="../MainPannel/MainPannelFastEnabled.vi"/>
 		<Item Name="DataView.vi" Type="VI" URL="../H5ViewerSAM/DataView.vi"/>
-		<Item Name="HDF5DataspacesRead1D.vi" Type="VI" URL="/D/Downloads/HDF5DataspacesRead1D.vi"/>
+		<Item Name="Splash.vi" Type="VI" URL="../MainPannel/Splash.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -13554,8 +13554,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
-				<Item Name="H5Sget_select_npoints.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sget_select_npoints.vi"/>
-				<Item Name="H5Sselect_elements.vi" Type="VI" URL="/&lt;vilib&gt;/UPVI/lvhdf5/dataspace.llb/H5Sselect_elements.vi"/>
+				<Item Name="datatype.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/importsl/GetValueByPointer/datatype.ctl"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="niFgen Get Session Reference.vi" Type="VI" URL="/&lt;instrlib&gt;/niFgen/niFgen.llb/niFgen Get Session Reference.vi"/>
@@ -13708,7 +13707,6 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../ThorLabs/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="ThorLabs.MotionControl.KCube.DCServoCLI.dll" Type="Document" URL="../ThorLabs/ThorLabs.MotionControl.KCube.DCServoCLI.dll"/>
 			<Item Name="Rotate Array 2012 NIVerified.vi" Type="VI" URL="../MainPannel/Rotate Array 2012 NIVerified.vi"/>
-			<Item Name="TopLevelRelativeToAbsolutePath.vi" Type="VI" URL="/D/Downloads/subVIs/TopLevelRelativeToAbsolutePath.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
