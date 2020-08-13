@@ -1547,6 +1547,9 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Thor_GetPosition.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_GetPosition.vi"/>
 			<Item Name="Thor_DeviceRef.ctl" Type="VI" URL="../ThorLabs/SubViForControl/Thor_DeviceRef.ctl"/>
 			<Item Name="Thor_KCubeServoDCRef.ctl" Type="VI" URL="../ThorLabs/SubViForControl/Thor_KCubeServoDCRef.ctl"/>
+			<Item Name="Z Axis States.ctl" Type="VI" URL="../ThorLabs/SubViForControl/Z Axis States.ctl"/>
+			<Item Name="Thor_StopImmidiate.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_StopImmidiate.vi"/>
+			<Item Name="Thor_GetStatus.vi" Type="VI" URL="../ThorLabs/SubViForControl/Thor_GetStatus.vi"/>
 		</Item>
 		<Item Name="FPGA Target" Type="FPGA Target">
 			<Property Name="AutoRun" Type="Bool">false</Property>
