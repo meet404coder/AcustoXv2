@@ -13710,6 +13710,7 @@ PFI 0 Rd DataNumberOfSyncRegistersForReadInProject=Auto;resource=/IO Module/Sign
 			<Item Name="Thorlabs.MotionControl.Controls.dll" Type="Document" URL="../ThorLabs/Thorlabs.MotionControl.Controls.dll"/>
 			<Item Name="ThorLabs.MotionControl.KCube.DCServoCLI.dll" Type="Document" URL="../ThorLabs/ThorLabs.MotionControl.KCube.DCServoCLI.dll"/>
 			<Item Name="Rotate Array 2012 NIVerified.vi" Type="VI" URL="../MainPannel/Rotate Array 2012 NIVerified.vi"/>
+			<Item Name="Down Sample Array.vi" Type="VI" URL="../WaveformSynth/Down Sample Array.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
